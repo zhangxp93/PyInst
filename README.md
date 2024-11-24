@@ -25,5 +25,5 @@ pip install pyvisa
 
 
 
-## [更新日志](CHANGE_LOG.md)
+## 🏷[更新日志](CHANGE_LOG.md)
 

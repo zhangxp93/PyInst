@@ -25,4 +25,4 @@ pip install pyvisa
 
 
 
-## [CHANGE LOG](CHANGE_LOG.md)
+## 🏷[CHANGE LOG](CHANGE_LOG.md)
