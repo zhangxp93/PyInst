@@ -14,7 +14,7 @@ def setup_logging(log_file=None, log_level=logging.INFO, max_bytes=1 * 1024 * 10
     :param backup_count: 保留的日志文件备份数
     """
     if log_file is None:
-        log_file = os.getenv('LOG_FILE_PATH', 'log/test.log')
+        log_file = os.getenv('LOG_FILE_PATH', 'docs/log/test.log')
 
     # 确保日志文件夹存在
     log_dir = os.path.dirname(log_file)

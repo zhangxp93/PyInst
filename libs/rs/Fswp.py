@@ -32,7 +32,6 @@ import logging
 import pyvisa
 import time
 
-import common
 
 
 # 定义Fswp类，连接Fswp信号源分析仪
@@ -42,7 +41,6 @@ class Fswp:
         设置Fswp仪器地址，连接Fswp信号源分析仪
         :param instrument_address:写入仪器地址，例如："USB0::0x0957::0x0E09::MY47402409::0::INSTR"
         """
-        common.setup_logging()
         self.instrument_address = instrument_address
         self.rm = pyvisa.ResourceManager()
         self.Fswp = self.rm.open_resource(self.instrument_address)

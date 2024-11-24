@@ -7,3 +7,18 @@
 方法1：将所需的分支，fork到你自己的账号下，然后clone你自己仓库。
 
 方法2：使用以下命令手动clone指定分支：
+
+```
+git clone --single-branch --branch [分支名] https://github.com/zhangxp93/PyInst.git
+```
+
+方法3：在本仓库手动下载指定分支的zip源码包。
+
+`[分支名]` 可以是 `main` 、`release/1.0.0` 等，详见下方列表。
+
+`main`、`dev` 等分支，可能含有开发中的不稳定的新功能。如果用于研究学习或二次开发，建议选择 `release` 开头的分支。
+
+# 更新日志 CHANGE LOG
+
+### main `2024.11.24`
+- “梦开始的地方”
