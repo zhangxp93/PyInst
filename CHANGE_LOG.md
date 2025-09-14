@@ -20,5 +20,11 @@ git clone --single-branch --branch [分支名] https://github.com/zhangxp93/PyIn
 
 # 更新日志 CHANGE LOG
 
-### main `2024.11.24`
-- “梦开始的地方”
+### [release/v0.0.1](https://github.com/zhangxp93/PyInst.git) `2025.09.14`
+- 项目第一个版本发布
+- 支持基于 PyVISA 的仪器控制
+- 实现对 Keysight 和 Rohde & Schwarz 仪器的 SCPI 命令控制
+- 支持多种连接方式（USB、GPIB、TCP/IP）
+
+### [main](https://github.com/zhangxp93/PyInst.git) `2024.11.24`
+- "梦开始的地方"
