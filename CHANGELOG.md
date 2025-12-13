@@ -20,6 +20,15 @@ git clone --single-branch --branch [分支名] https://github.com/zhangxp93/PyIn
 
 # 更新日志 CHANGE LOG
 
+### [release/v0.1.0](https://github.com/zhangxp93/PyInst.git) `2025.12.13`
+- 重构项目架构，引入基类仪器控制模块
+- 优化Keysight N9020B频谱仪控制类
+- 完善Rohde & Schwarz频谱仪控制类
+- 添加配置文件加载功能
+- 改进日志系统，支持彩色日志输出
+- 修复多个仪器控制相关bug
+- 更新项目依赖管理，使用Poetry管理依赖
+
 ### [release/v0.0.1](https://github.com/zhangxp93/PyInst.git) `2025.09.14`
 - 项目第一个版本发布
 - 支持基于 PyVISA 的仪器控制
