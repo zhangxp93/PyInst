@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pyinst"
-version = "0.1.0"
+version = "0.0.2"
 description = "PyVISA仪器控制库，支持Keysight和Rohde&Schwarz仪器"
 authors = ["zhangxp93 <937097345@qq.com>"]
 readme = "README.md"

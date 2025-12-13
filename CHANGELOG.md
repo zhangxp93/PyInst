@@ -20,7 +20,7 @@ git clone --single-branch --branch [分支名] https://github.com/zhangxp93/PyIn
 
 # 更新日志 CHANGE LOG
 
-### [release/v0.1.0](https://github.com/zhangxp93/PyInst.git) `2025.12.13`
+### [release/v0.0.2](https://github.com/zhangxp93/PyInst.git) `2025.12.13`
 - 重构项目架构，引入基类仪器控制模块
 - 优化Keysight N9020B频谱仪控制类
 - 完善Rohde & Schwarz频谱仪控制类
