@@ -20,6 +20,10 @@ git clone --single-branch --branch [分支名] https://github.com/zhangxp93/PyIn
 
 # 更新日志 CHANGE LOG
 
+### [release/v0.0.3.2](https://github.com/zhangxp93/PyInst.git) `2026.03.08`
+- 重构模块内部导入路径，移除了冗余的 `src.` 前缀，改为从顶层模块 `pyinsts` 直接导入（如 `main.py` 与 `baseinstrument.py`）
+- 更新项目包管理器配置锁文件 `uv.lock` 从而使得版本及包名依赖彻底保持一致
+
 ### [release/v0.0.3.1](https://github.com/zhangxp93/PyInst.git) `2026.03.08`
 - 修复 PyPI 上 README 中无效的文档相对跳转链接，将其替换为 GitHub 上的绝对链接
 - 在 pyproject.toml 文件中增加了 `[project.urls]` 以便在 PyPI 侧边栏展示项目主页和更新日志
