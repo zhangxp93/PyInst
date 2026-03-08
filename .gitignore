@@ -94,5 +94,3 @@ Thumbs.db
 docs/_build/
 
 # Explicitly include important IDE configuration files
-/.idea/
-*.iml
