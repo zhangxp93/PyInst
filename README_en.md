@@ -1,4 +1,4 @@
-[**简体中文**](README.md) | [**English**](README_en.md)
+[**简体中文**](https://github.com/zhangxp93/PyInst/blob/main/README.md) | [**English**](https://github.com/zhangxp93/PyInst/blob/main/README_en.md)
 
 <div align="center">
  <h1>
@@ -25,4 +25,4 @@ pip install pyvisa
 
 
 
-## 🏷[CHANGE LOG](CHANGELOG.md)
+## 🏷[CHANGE LOG](https://github.com/zhangxp93/PyInst/blob/main/CHANGELOG.md)
