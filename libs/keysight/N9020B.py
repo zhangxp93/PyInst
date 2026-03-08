@@ -3,7 +3,7 @@ from typing import  Literal
 import time
 import logging
 
-from libs import BaseInstrument
+from ..baseinstrument import BaseInstrument
 
 
 class N9020b(BaseInstrument):
