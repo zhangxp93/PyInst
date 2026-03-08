@@ -90,8 +90,5 @@ Thumbs.db
 # Logs
 *.log
 
-# Project specific ignores
-docs/_build/
-
 # Explicitly include important IDE configuration files
 .idea/
