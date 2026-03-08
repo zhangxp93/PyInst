@@ -23,6 +23,7 @@ git clone --single-branch --branch [分支名] https://github.com/zhangxp93/PyIn
 ### [release/v0.0.3](https://github.com/zhangxp93/PyInst.git) `2026.03.08`
 - 新增 `PyInst Instrument Control` Agent Skill 以支持 AI 模型通过自然语言或者流程自动化控制仪器
 - 修复 `libs/keysight/N9020B.py` 文件中由于绝对导入导致的循环导入报错问题
+- 在 `libs/keysight/N9020B.py` 中动态追加系统路径 `sys.path` 以解决直接运行脚本时的依赖包找不到的问题
 - 更新项目依赖管理，使用 `uv` 替换 `Poetry`
 - 引入 uv workspaces 配置以支持多个项目成员（如 `test_app`）
 - 清理冗余的 `poetry.lock` 和 `poetry.toml` 配置文件
