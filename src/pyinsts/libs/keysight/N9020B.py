@@ -5,9 +5,9 @@ from typing import  Literal
 import time
 import logging
 
-# 将项目根目录（PyInst）添加到Python路径
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
-from libs.baseinstrument import BaseInstrument
+# 将项目根目录（pyinsts）添加到Python路径
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../../../')))
+from src.pyinsts.libs.baseinstrument import BaseInstrument
 
 
 

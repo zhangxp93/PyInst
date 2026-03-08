@@ -5,7 +5,7 @@
 
 您可以免费地使用、修改和分发PyInst ，但必须包含原始作者的版权声明和下列许可声明。
 
-You may use, modify, and distribute PyInst free of charge, but you must include
+You may use, modify, and distribute pyinsts free of charge, but you must include
 the original author's copyright notice and the following license notice.
 """
 
