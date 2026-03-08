@@ -1,0 +1,17 @@
+{
+    "terminal.integrated.env.windows": {
+        "PYTHONPATH": "${workspaceFolder}"
+    },
+    "terminal.integrated.env.osx": {
+        "PYTHONPATH": "${workspaceFolder}"
+    },
+    "terminal.integrated.env.linux": {
+        "PYTHONPATH": "${workspaceFolder}"
+    },
+    "python.analysis.extraPaths": [
+        "./src/core/instruments"
+    ],
+    "cursorpyright.analysis.extraPaths": [
+        "./src/core/instruments"
+    ]
+}

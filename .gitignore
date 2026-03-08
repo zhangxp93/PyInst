@@ -77,7 +77,6 @@ env.bak
 venv.bak
 
 # VS Code
-.vscode/
 
 # OS generated files
 .DS_Store
