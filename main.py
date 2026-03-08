@@ -35,8 +35,8 @@ SOFTWARE.
 
 
 # 这是一个示例 Python 脚本。
-from src.pyinsts import common
-from src.pyinsts import libs
+from pyinsts import common
+from pyinsts import libs
 
 fswp_addr = 'TCPIP::192.168.1.1::INSTR'
 n9020b_addr = 'TCPIP::192.168.1.2::INSTR'
