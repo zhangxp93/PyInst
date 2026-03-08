@@ -92,3 +92,5 @@ Thumbs.db
 
 # Explicitly include important IDE configuration files
 .idea/
+.vscode/
+.agent
