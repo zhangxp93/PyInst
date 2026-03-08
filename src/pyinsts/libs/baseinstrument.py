@@ -9,7 +9,7 @@ from functools import wraps
 
 from pyvisa import VisaIOError
 
-from src.pyinst.libs.data import load_config
+from src.pyinsts.libs.data import load_config
 
 
 def handle_instrument_error(func: Callable) -> Callable:

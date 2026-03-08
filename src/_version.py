@@ -5,7 +5,7 @@ def _get_version() -> str:
 
     import versioningit
 
-    module_path = files("pyinst")
+    module_path = files("pyinsts")
     if isinstance(module_path, Path):
         return versioningit.get_version(project_dir=Path(module_path).parent.parent)
     else:
